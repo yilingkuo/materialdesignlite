@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "Piechart",
-  "short_name": "Piechart",
+  "name": "Header",
+  "short_name": "Header",
   "version": "fullmaterialtemplate",
-  "description": "Hello World sample application that responds to the deviceready event.",
+  "description": "The header part of material design lite dashboard template",
   "author": "PhoneGap Team",
   "icons": [],
   "start_url": "index.html"

@@ -61,11 +61,11 @@
     </style>
   </head>
   <body>
-    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header" >
       <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">Home</span>
-          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-layout-spacer" ></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
@@ -79,8 +79,8 @@
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-            <li class="mdl-menu__item">About</li>
-            <li class="mdl-menu__item">Contact</li>
+            <li class="mdl-menu__item"> <a href='multipleLayers.html'>About</a></li>
+            <li class="mdl-menu__item" onclick="replaceGraphs()">Contact</li>
             <li class="mdl-menu__item" onclick='menuClicked()'>Legal information</li>
           </ul>
         </div>
@@ -136,7 +136,7 @@
               <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" font-size="0.2">%</tspan></text>
             </svg>
           </div>
-          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
+          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col" id='graphdiv'>
             <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
               <use xlink:href="#chart" />
             </svg>
